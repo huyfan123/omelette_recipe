@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0 0;
+}
+
+.no-margin{
+    margin: 0 0;
+}
+
+
+
+h1{
+    margin: 0 0;
+    font-family:sans-serif;
+}
+
+h4{
+    margin: 0 0;
+    padding: 21px 0;
+}
+
+p{
+    margin: 0 0;
+    font-size: 16px;
+}
+
+ul{
+    margin: 0 0;    
+}
+
+
+#main{
+    background-color: hsl(30, 54%, 90%);
+    width: auto;
+    height: auto;
+}
+
+#recipe{
+    position: relative;
+    padding: 23px;
+    border-radius: 2%;
+    width: 650px;
+    align-items: center;
+    background-color:#fff;
+    
+}
+
+#omelette-img{
+
+    width: 100%;
+    border-radius: 5%;
+}
+
+.nutmeg-color{
+    color: hsl(14, 45%, 36%);
+}
+
+.dark-respberry-color{
+    color: hsl(332, 51%, 32%);
+}
+
+#recipe{
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+p{
+    text-align: justify;
+}
+
+#first-p{
+    padding: 20px 0;
+    
+}
+
+#prepare{
+    padding: 15px;
+    border-radius: 9%;
+    position: relative;
+    background-color: hsl(330, 100%, 98%);
+}
+
+#prepare h4{
+    color: hsl(332, 51%, 32%);
+    margin: 0 0;
+    padding-top:0; 
+}
+
+#prepareList{
+
+}
+
+
+#instruction li{
+    color: hsl(24, 5%, 18%);
+    padding-bottom: 15px;
+}
+
+#instructionsList li{
+    list-style: decimal;
+    
+}
+
+#nutrition-p{
+    padding-bottom: 15px;
+}
+
+#nutrition-table{
+    width: 100%;
+    /* border: 1px solid grey; */
+}
+
+#nutrition-table td{
+    padding: 15px 40px;
+}
