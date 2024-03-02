@@ -7,14 +7,26 @@
     margin: 0 0;
 }
 
-
-
-h1{
-    margin: 0 0;
-    font-family:sans-serif;
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-h4{
+.outfit{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+
+h1{
+    padding-top: 25px;
+    margin: 0 0;
+}
+
+h2{
     margin: 0 0;
     padding: 21px 0;
 }
@@ -30,23 +42,24 @@ ul{
 
 
 #main{
+    position: relative;
     background-color: hsl(30, 54%, 90%);
     width: auto;
-    height: auto;
+    height: 1750px;
+    padding: 100px;
 }
 
 #recipe{
-    position: relative;
-    padding: 23px;
+    position: absolute;
+    padding: 35px;
     border-radius: 2%;
-    width: 650px;
+    width: 700px;
     align-items: center;
     background-color:#fff;
     
 }
 
 #omelette-img{
-
     width: 100%;
     border-radius: 5%;
 }
@@ -61,7 +74,8 @@ ul{
 
 #recipe{
     left: 50%;
-    transform: translate(-50%,0);
+    justify-items: baseline;
+    transform: translate(-50%,0); /* 3% tí sửa  */
 }
 
 p{
@@ -80,25 +94,60 @@ p{
     background-color: hsl(330, 100%, 98%);
 }
 
-#prepare h4{
+#prepare h2{
     color: hsl(332, 51%, 32%);
     margin: 0 0;
     padding-top:0; 
 }
 
-#prepareList{
-
+#prepareList ul{
+    padding-inline-start: 20px;
 }
 
+#prepareList li{
+    padding-left: 15px;
+}
+
+#ingredient{
+    border-bottom: 1px solid silver;
+    padding-bottom: 20px;
+}
+
+#ingredient ul{
+    padding-inline-start: 20px;
+}
+
+#ingredient li{
+    padding-left: 15px;
+}
+
+#instruction{
+    border-bottom: 1px solid silver;
+    padding-bottom: 15px;
+}
+
+#instruction h2{
+    padding-top: 20px;
+}
+
+#instruction ul{
+    padding-inline-start: 0px;
+    margin-left: 12px;
+}
 
 #instruction li{
     color: hsl(24, 5%, 18%);
     padding-bottom: 15px;
+    text-align: justify;
 }
 
 #instructionsList li{
     list-style: decimal;
-    
+    padding-left: 15px;
+}
+
+#nutrition{
+    position: relative;
 }
 
 #nutrition-p{
@@ -106,10 +155,10 @@ p{
 }
 
 #nutrition-table{
+    position: relative;
     width: 100%;
-    /* border: 1px solid grey; */
 }
 
 #nutrition-table td{
-    padding: 15px 40px;
+    padding-left: 32px;
 }
